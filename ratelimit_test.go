@@ -419,3 +419,8 @@ func BenchmarkNewBucket(b *testing.B) {
 		NewBucketWithRate(4e18, 1<<62)
 	}
 }
+
+func TestE(t *testing.T) {
+	var a int = 1e9
+	t.Logf("%d", a)
+}
